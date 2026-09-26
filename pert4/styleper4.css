@@ -1,0 +1,157 @@
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    margin: 25px;
+}
+
+
+h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    background-color: steelblue;
+    border: 2px solid #333333;
+    width: 500px;
+    height: 50px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+h2 {
+    color: rgb(0, 70, 130);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+p {
+    color: #333333;
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+
+
+table {
+    background-color: white;
+    border: 1px solid #444444;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+th {
+    background-color: powderblue;
+    color: black;
+    border: 1px solid #444444;
+    padding: 12px;
+}
+
+
+td {
+    border: 1px solid #444444;
+    padding: 10px;
+}
+
+
+a {
+    display: inline;
+    color: darkred;
+    font-size: 16px;
+    margin-right: 15px;
+    padding: 5px;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+
+div {
+    display: block;
+    background-color: white;
+    border: 1px solid #888888;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+
+label {
+    display: inline-block;
+    width: 70px;
+    margin-right: 5px;
+}
+
+
+ul {
+    display: flex;
+    background-color: white;
+    border: 1px solid #888888;
+    margin: 10px 0;
+    padding: 15px;
+}
+
+
+li {
+    margin-right: 20px;
+}
+
+
+ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    border: 1px solid #888888;
+    margin: 10px 0;
+    padding: 15px 35px;
+}
+
+
+form {
+    background-color: white;
+    border: 1px solid #888888;
+    width: 400px;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+
+input {
+    border: 1px solid #666666;
+    padding: 8px;
+    margin-left: 5px;
+}
+
+
+button {
+    background-color: rgb(0, 80, 150);
+    color: white;
+    border: 1px solid rgb(0, 80, 150);
+    padding: 8px 15px;
+    margin-top: 10px;
+}
+
+
+hr {
+    display: none;
+}
+
+
+footer {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+}

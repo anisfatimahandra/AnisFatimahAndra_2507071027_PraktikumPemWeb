@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: purple;
+    color: whie;
+    padding: 25px 50px;
+}
+
+
+header h1 {
+    margin: 0 0 15px;
+}
+
+p {
+    color: blueviolet;
+}
+
+nav a {
+    color: pink;
+    margin-right: 20px;
+}
+
+
+nav a:hover {
+    color: blueviolet;
+}
+
+
+.hero,
+.position,
+.floating,
+.shadow {
+    width: 85%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: pink;
+}
+
+
+button:hover {
+    background-color: purple;
+    color: pink;
+}
+
+button:active {
+    background-color: palevioletred;
+}
+
+
+.position {
+    position: relative;
+    height: 250px;
+}
+
+
+.static {
+    position: static;
+    background-color: pink;
+    padding: 15px;
+}
+
+
+.relative {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 150px;
+    padding: 15px;
+    background-color: purple;
+}
+
+
+.absolute {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    padding: 15px;
+    background-color: violet;
+}
+
+
+.float-left {
+    float: left;
+    width: 150px;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: palevioletred;
+}
+
+
+.float-right {
+    float: right;
+    width: 150px;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: violet;
+}
+
+
+.clearfix {
+    clear: both;
+}
+
+
+.shadow-box {
+    width: 250px;
+    padding: 30px;
+    background-color: blueviolet;
+    box-shadow: 5px 5px 15px pink;
+}
+
+
+footer {
+    clear: both;
+    padding: 20px;
+    text-align: center;
+    background-color: purple;
+    color: pink;
+}

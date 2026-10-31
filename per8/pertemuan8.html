@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Praktikum JS - Interaktifitas Website</title>
+    <link rel="stylesheet" href="styleper8.css">
+</head>
+<body>
+    <header>
+        <h1>Eksplorasi JavaScript & Manipulasi DOM</h1>
+        <p>Laboratorium Komputer D3 Manajemen Informatika</p>
+    </header>
+    <main>
+        <section class="card">
+            <h2 id="teks-sambutan">Selamat Datang di Praktikum Website</h2>
+            <p id="teks-keterangan">Teks ini akan mengalami perubahan isi dan warna.</p>
+            <button id="btn-ubah">Ubah Teks</button>
+            <button id="btn-reset">Kembalikan semula</button>
+        </section>
+
+        <section class="card">
+            <h2>Pratinjau Masukan Langsung (Live Preview)</h2>
+            <input type="text" id="input-nama" placeholder="Masukkan nama mahasiswa...">
+            <p>Halo, <span id="output-nama" class="sorot">Praktikan</span>!</p>
+        </section>
+            
+        <section class="card">
+            <h2>Pencacah Interaktif (Interactive Counter)</h2>
+            <div class="counter-display" id="angka-counter">0</div><br>
+            <button id="btn-kurang">Kurang</button>
+            <button id="btn-tambah">Tambah</button>
+        </section>  
+    </main>
+
+    <footer>
+        <p>©2026 Asisten Dosen Pemrograman Web</p>
+    </footer>
+
+    <script src="scriptper8.js"></script> 
+</body>
+</html>
